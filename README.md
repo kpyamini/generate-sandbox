@@ -1,8 +1,12 @@
 # OpenAPI Mock Generator
 
-A FastAPI service that accepts an OpenAPI specification file and uses OpenAI GPT to automatically generate a **NodeRED mock endpoints JSON** and a **Postman collection JSON**.
+My first OpenAI experiment: A dynamic sandbox generator that helps to get a mock server running to test the API functionality using postman. Great assistant to generate a working environment for API design and evaluation.
 
-This tool will come handy if you want to experiment with an API running on a mock server and test its functionality using postman.
+Are you someone who integrates APIs into your application everyday and struggle to understand all the complicated endpoints and request/response data structure. Fork this simple project to assist you in playing around with the API to understand the functionality with a Test driven approach.
+
+This project provides a FastAPI service that accepts an OpenAPI specification file and uses OpenAI API to automatically generate a **NodeRED mock endpoints JSON** and a **Postman collection JSON**.
+
+NodeRED is a low code application development platform where you could host API servers for experimentation. Learn more at https://nodered.org/docs/getting-started/local
 
 ---
 
